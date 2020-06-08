@@ -71,7 +71,6 @@ const Detail = () => {
         <TouchableOpacity onPress={handleNavigateback}>
           <Icon name="arrow-left" size={26} color="#34cb79" />
         </TouchableOpacity>
-
         <Image style={styles.pointImage} source={{ uri: data.point.image }} />
         <Text style={styles.pointName}>{data.point.name}</Text>
         <Text style={styles.pointItems}>
